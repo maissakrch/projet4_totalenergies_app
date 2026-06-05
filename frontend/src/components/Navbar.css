@@ -1,0 +1,67 @@
+.navbar {
+  background: #0D1B2A;
+  padding: 0 32px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-logo {
+  font-size: 28px;
+}
+
+.brand-name {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.brand-sub {
+  color: #1ABC9C;
+  font-size: 11px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-link {
+  color: #AABCCC;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  background: #1B4F72;
+  color: white;
+}
+
+.nav-link.active {
+  background: #1ABC9C;
+  color: #0D1B2A;
+  font-weight: bold;
+}
+
+.ia-badge {
+  background: #1B4F72;
+  color: #1ABC9C;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}

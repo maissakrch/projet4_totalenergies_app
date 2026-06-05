@@ -1,0 +1,55 @@
+name: CI — TotalEnergies IT Support App
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-backend:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v3
+
+      - name: Installation Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Installation des dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install fastapi uvicorn sqlalchemy python-dotenv pytest httpx requests pandas
+
+      - name: Initialisation base de données
+        run: |
+          python -c "from backend.database import init_db; init_db()"
+
+      - name: Exécution des tests
+        run: |
+          pytest tests/test_api.py -v --tb=short
+
+  test-frontend:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v3
+
+      - name: Installation Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: Installation des dépendances frontend
+        run: |
+          cd frontend
+          npm install
+
+      - name: Build frontend
+        run: |
+          cd frontend
+          npm run build

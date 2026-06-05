@@ -1,0 +1,56 @@
+[2026-06-05 08:50:55] 🚀 Démarrage API TotalEnergies IT Support
+[2026-06-05 08:50:55] ✔️ Base de données initialisée
+[2026-06-05 08:50:55] ✔️ API prête sur http://127.0.0.1:8001
+[2026-06-05 08:57:28] 🚀 Démarrage API TotalEnergies IT Support
+[2026-06-05 08:57:28] ✔️ Base de données initialisée
+[2026-06-05 08:57:28] ✔️ API prête sur http://127.0.0.1:8001
+[2026-06-05 09:09:31] 🚀 Démarrage API TotalEnergies IT Support
+[2026-06-05 09:09:31] ✔️ Base de données initialisée
+[2026-06-05 09:09:31] ✔️ API prête sur http://127.0.0.1:8001
+[2026-06-05 09:27:05] 🚀 Démarrage API TotalEnergies IT Support
+[2026-06-05 09:27:05] ✔️ Base de données initialisée
+[2026-06-05 09:27:05] ✔️ API prête sur http://127.0.0.1:8001
+[2026-06-05 09:28:02] 🚀 Démarrage API TotalEnergies IT Support
+[2026-06-05 09:28:02] ✔️ Base de données initialisée
+[2026-06-05 09:28:02] ✔️ API prête sur http://127.0.0.1:8001
+[2026-06-05 09:35:56] 📋 GET /tickets — 15 tickets retournés
+[2026-06-05 09:35:56] 📋 GET /tickets — 15 tickets retournés
+[2026-06-05 09:36:05] 📋 GET /tickets/1
+[2026-06-05 09:36:05] 📋 GET /tickets/1
+[2026-06-05 09:39:37] 📋 GET /tickets — 15 tickets retournés
+[2026-06-05 09:39:37] 📋 GET /tickets — 15 tickets retournés
+[2026-06-05 09:40:48] ➕ Création ticket : PC très lent
+[2026-06-05 09:40:48] 🤖 Classification IA : Performance (score: 0.9854)
+[2026-06-05 09:40:48] ✔️ Ticket #16 créé
+[2026-06-05 09:40:48] 📋 GET /tickets — 16 tickets retournés
+[2026-06-05 09:41:12] 📋 GET /tickets — 16 tickets retournés
+[2026-06-05 09:41:12] 📋 GET /tickets — 16 tickets retournés
+[2026-06-05 09:41:30] 📋 GET /tickets — 3 tickets retournés
+[2026-06-05 09:41:33] 📋 GET /tickets — 16 tickets retournés
+[2026-06-05 09:42:12] ➕ Création ticket : Mon écran ne s'allume plus
+[2026-06-05 09:42:13] 🤖 Classification IA : Matériel (score: 0.196)
+[2026-06-05 09:42:13] ✔️ Ticket #17 créé
+[2026-06-05 09:42:13] 📋 GET /tickets — 17 tickets retournés
+[2026-06-05 09:43:21] 🚀 Démarrage API TotalEnergies IT Support
+[2026-06-05 09:43:21] ✔️ Base de données initialisée
+[2026-06-05 09:43:21] ✔️ API prête sur http://127.0.0.1:8001
+[2026-06-05 09:43:27] 📋 GET /tickets — 17 tickets retournés
+[2026-06-05 09:43:27] 📋 GET /tickets — 9 tickets retournés
+[2026-06-05 09:43:27] ➕ Création ticket : Test ticket pytest
+[2026-06-05 09:43:28] 🤖 Classification IA : Performance (score: 0.1924)
+[2026-06-05 09:43:28] ✔️ Ticket #18 créé
+[2026-06-05 09:43:28] ➕ Création ticket : Ticket ID test
+[2026-06-05 09:43:29] 🤖 Classification IA : Sécurité (score: 0.2535)
+[2026-06-05 09:43:29] ✔️ Ticket #19 créé
+[2026-06-05 09:43:29] 📋 GET /tickets/19
+[2026-06-05 09:43:29] ➕ Création ticket : Ticket update test
+[2026-06-05 09:43:29] 🤖 Classification IA : Performance (score: 0.2132)
+[2026-06-05 09:43:29] ✔️ Ticket #20 créé
+[2026-06-05 09:43:29] ✏️ Ticket #20 mis à jour
+[2026-06-05 09:43:29] ➕ Création ticket : Ticket delete test
+[2026-06-05 09:43:29] 🤖 Classification IA : Performance (score: 0.2418)
+[2026-06-05 09:43:29] ✔️ Ticket #21 créé
+[2026-06-05 09:43:29] 🗑️ Ticket #21 supprimé
+[2026-06-05 09:43:29] 🚨 Incident #1 créé : Incident test pytest
+[2026-06-05 09:43:29] 🚨 Incident #2 créé : Incident resolve test
+[2026-06-05 09:43:29] ✏️ Incident #2 mis à jour
