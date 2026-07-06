@@ -53,3 +53,7 @@ jobs:
         run: |
           cd frontend
           npm run build
+        
+      - name: Packaging — build de l'image Docker
+        run: |
+          docker build -t totalenergies-support-api .
